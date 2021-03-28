@@ -19,7 +19,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: var(--background-color-light);
+    background-image: url('../images/background.jpg');
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -81,13 +81,6 @@ footer h4 {
 }
 /* footer end */
 
-/* style section tags */
-section {
-    padding: 60px;
-}
-
-/* section tags end */
-
 /* hero */
 .hero {
     background-image: url('../images/background.jpg');
@@ -116,12 +109,15 @@ section {
 }
 /* hero end */
 
+/* section content */
+
 .section-container {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 60px;
 }
 
 .section-content {
@@ -133,9 +129,10 @@ section {
 }
 
 .section-title  {
-    padding: 15px 15px;
+    padding: 10px 10px;
     border-right: 2px solid;
     width: 30%;
+    flex-grow: 1;
 }
 
 .right-content {
@@ -143,20 +140,30 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding-left: 15px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 30px;
+    flex-grow: 8;
 }
 
-.text-content {
-    width: 30%;
-    text-align: right;
+.right-content p {
+    text-align: left;
+    width: 30vmax;
+    padding: 15px 15px;
 }
 
 .images-lrg img {
-    width: 100%;
+    width: 60vmax;
+    padding: 15px 5px;
 }
 
 .images-sml img {
-    width: 48%;
+    width: 30vmax;
+    padding: 15px 15px;
 }
+/* section content end*/
+
+/* footer */
+
+
+
