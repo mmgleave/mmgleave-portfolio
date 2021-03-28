@@ -215,8 +215,9 @@ footer h4 {
     }
 
     .section-content {
+        width: 100%;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         padding: 15px 15px;
     }
     
