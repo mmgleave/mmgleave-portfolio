@@ -2,17 +2,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 :root {
     --background-color-light: lightgray ;
     --background-color-dark: gray;
     --title-color-light: white;
-    --title-color-dark: black;
+    --title-color-dark: rgb(28, 28, 39);
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 /* header and nav */
@@ -35,7 +37,7 @@ header {
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 36px;
+    font-size: 3vw;
     color: var(--title-color-dark);
   }
 
@@ -66,7 +68,8 @@ header nav ul li a {
 
 /* footer */
 footer {
-    background: var(--background-color-light);
+    background: url("../images/background.jpg");
+    background-size: cover;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
@@ -76,7 +79,7 @@ footer {
 
 footer h4 {
     color: var(--title-color-dark);
-    font-size: 24px;
+    font-size: 2vw;
     margin: 0;
 }
 /* footer end */
@@ -98,13 +101,13 @@ footer h4 {
     text-align: right;
     margin: 3.5%;
     color: var(--title-color-dark);
-    font-size: 18px;
+    font-size: 1.55vw;
     line-height: 1.2;
 }
 
 .hero-content h2 {
     font-style: italic;
-    font-size: 24px;
+    font-size: 2vw;
     color: var(--title-color-dark);
 }
 /* hero end */
@@ -129,9 +132,10 @@ footer h4 {
 }
 
 .section-title  {
-    padding: 10px 10px;
+    padding: 45px 10px;
     border-right: 2px solid;
     width: 30%;
+    font-size: 2vw;
     flex-grow: 1;
 }
 
@@ -140,28 +144,48 @@ footer h4 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     padding-left: 30px;
     flex-grow: 8;
 }
 
 .right-content p {
     text-align: left;
-    width: 30vmax;
-    padding: 15px 15px;
+    width: 40vw;
+    padding: 5px 5px;
+    font-size: 1.55vw;
+}
+
+.images-lrg, .images-sml {
+    position: relative;
 }
 
 .images-lrg img {
-    width: 60vmax;
-    padding: 15px 5px;
+    width: 50vw;
+    padding: 5px 5px;
 }
 
 .images-sml img {
-    width: 30vmax;
-    padding: 15px 15px;
+    width: 25vw;
+    padding: 5px 5px;
+}
+
+#img-1, #img-2, #img-3 {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.55vw;
+}
+
+#resume a {
+    font-size: 2vw;
 }
 /* section content end*/
+
 
 /* footer */
 
