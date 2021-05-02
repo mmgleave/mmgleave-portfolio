@@ -1,7 +1,7 @@
 # Michelle Gleave Professional Portfolio
 
 ## Website
-www.mmgleave.github.io/mmgleave-portfolio
+https://mmgleave.github.io/mmgleave-portfolio/
 
 ## Description
 Basic design for an online portfolio with sections for About Me, Work (with linkeed deployed applications), Contact Me, and a downloadable resume. Responsive layout for smaller screens included.
